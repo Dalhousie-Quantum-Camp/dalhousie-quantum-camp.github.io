@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>Module B: Quantum Communication</title>
+		<meta name="description" content="Module B: Quantum Communication">
+		<meta name="author" content="Scott Wesley">
+
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+ 
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet"> 
+		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet"> 
+		<link href="css/animations.css" rel="stylesheet"> 
+		<link href="css/style.css" rel="stylesheet"> 
+		<link href="css/custom.css" rel="stylesheet">
+	</head>
+
+	<body class="no-trans">
+		<!-- scrollToTop --> 
+		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+		<!-- header start --> 
+		<header class="header fixed clearfix navbar navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+					</div>
+					<div class="col-md-8">
+
+						<!-- header-right start --> 
+						<div class="header-right">
+
+							<!-- main-navigation start --> 
+							<div class="main-navigation animated">
+
+								<!-- navbar start --> 
+								<nav class="navbar navbar-default" role="navigation">
+									<div class="container-fluid">
+
+										<!-- Toggle get grouped for better mobile display -->
+										<div class="navbar-header">
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+
+										<!-- Collect the nav links, forms, and other content for toggling -->
+										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+											<ul class="nav navbar-nav navbar-right">
+												<li><a href="index.html">Home</a></li>
+												<li><a href="index.html#overview">Overview</a></li>
+												<li><a href="index.html#schedule">Schedule</a></li>
+												<li><a href="index.html#location">Location</a></li>
+												<li><a href="index.html#sponsors">Sponsors</a></li>
+												<li><a href="index.html#contact">Contact</a></li>
+												<li><a href="challenges.html">Go!</a></li>
+											</ul>
+										</div>
+
+									</div>
+								</nav>
+								<!-- navbar end -->
+
+							</div>
+							<!-- main-navigation end -->
+
+						</div>
+						<!-- header-right end -->
+
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header end -->
+
+		<section class="hero-caption secPadding">
+			<div class="container">
+				<div class="row " style="margin-top: 80px;">
+					<div class="col-sm-12">
+						<h2>Module B: Quantum Communication</h2>
+						<p style="text-align: left;">
+							Much of our modern technology relies on the internet.
+							For example, let us consider a bike sharing network in a smart city which allows residents to pick up a bike at one location and then drop it off at another location.
+							Then the bike stations in this smart bike sharing network would share information about bike availability by sending messages over the internet.
+							Of course, we would like our bike sharing network to be secure.
+							If some malicious person online was sending fake information to our bike sharing network, we would like to detect this.
+						</p>
+						<p style="text-align: left;">
+							With classical computers, we could solve this problem using cryptography.
+							The idea is that each bike station would have a "key" which it could use as an ID card when sending information to the bike sharing network.
+							It turns out that many of the techniques used in classical cryptography do not make sense for quantum computers.
+							This is because quantum computers cannot send copies of data to each other.
+							A surprising solution to this problem, which forms the basis of most quantum cryptography, is that quantum computers can securely teleport data between each other!
+							Moreover, a single qubit can be used to carry multiple pieces of data at once through a process called superdense coding!
+							The goal of this module is to learn the basics of either quantum teleportation or superdense coding, and to realize that neither is really so magical.
+							An outline of the module is as follows.
+						</p>
+						<img src="images/comms.png" style="display: block; margin: auto;" alt="The order of communication tasks visualized.">
+						<p style="text-align: left;">
+							You will begin this module by reviewing the concept of a Bell pair for the lesson <b>Entanglement: Spooky Action at a Distance</b> from day 1.
+							Using the Bell pair as a building block, you well then explore two remarkable quantum communication protocols: superdense coding and quantum teleportation!
+							Note that you can choose to do the challenge on superdense coding before the challenge on quantum teleportation.
+							However, some of the concepts from quantum teleportation will help with tackling superdense coding.
+						</p>
+						<ul class="list-unstyled" style="text-align: left;">
+							<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Challenge 1: Creating a Bell Pair</li>
+							<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Challenge 2: Building a Quantum Teleporter</li>
+							<li><i class="fa fa-arrow-circle-right pr-10 colored"></i> Challenge 3: The World of Superdense Coding</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- footer start --> 
+		<footer id="footer">
+
+			<!-- .footer start --> 
+			<div class="footer section" style="padding: 15px;">
+			</div>
+			<!-- .footer end -->
+
+			<!-- .subfooter start --> 
+			<div class="subfooter">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<p class="text-center">Copyright © 2015 template by <a target="_blank" href="http://webthemez.com">webthemez.com</a>.</p>
+							<p class="text-center">Favicon created by <a target="_blank" href="https://www.flaticon.com/authors/wichaiwi" title="quantum icons">Wichai.wi - Flaticon</a>.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .subfooter end -->
+
+		</footer>
+		<!-- footer end -->
+
+		<!-- JavaScript --> 
+		<script type="text/javascript" src="plugins/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="plugins/modernizr.js"></script>
+		<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
+		<script type="text/javascript" src="plugins/jquery.appear.js"></script>
+
+		<!-- Custom Scripts -->
+		<script type="text/javascript" src="js/custom.js"></script>
+
+	</body>
+</html>

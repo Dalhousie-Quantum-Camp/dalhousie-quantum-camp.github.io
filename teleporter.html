@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>Challenge 2: Building a Quantum Teleporter</title>
+		<meta name="description" content="Challenge 2: Building a Quantum Teleporter">
+		<meta name="author" content="Scott Wesley">
+
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+ 
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet"> 
+		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet"> 
+		<link href="css/animations.css" rel="stylesheet"> 
+		<link href="css/style.css" rel="stylesheet"> 
+		<link href="css/custom.css" rel="stylesheet">
+	</head>
+
+	<body class="no-trans">
+		<!-- scrollToTop --> 
+		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+		<!-- header start --> 
+		<header class="header fixed clearfix navbar navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+					</div>
+					<div class="col-md-8">
+
+						<!-- header-right start --> 
+						<div class="header-right">
+
+							<!-- main-navigation start --> 
+							<div class="main-navigation animated">
+
+								<!-- navbar start --> 
+								<nav class="navbar navbar-default" role="navigation">
+									<div class="container-fluid">
+
+										<!-- Toggle get grouped for better mobile display -->
+										<div class="navbar-header">
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+
+										<!-- Collect the nav links, forms, and other content for toggling -->
+										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+											<ul class="nav navbar-nav navbar-right">
+												<li><a href="index.html">Home</a></li>
+												<li><a href="index.html#overview">Overview</a></li>
+												<li><a href="index.html#schedule">Schedule</a></li>
+												<li><a href="index.html#location">Location</a></li>
+												<li><a href="index.html#sponsors">Sponsors</a></li>
+												<li><a href="index.html#contact">Contact</a></li>
+												<li><a href="challenges.html">Go!</a></li>
+											</ul>
+										</div>
+
+									</div>
+								</nav>
+								<!-- navbar end -->
+
+							</div>
+							<!-- main-navigation end -->
+
+						</div>
+						<!-- header-right end -->
+
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header end -->
+
+		<section class="hero-caption secPadding">
+			<div class="container">
+				<div class="row " style="margin-top: 80px;">
+					<div class="col-sm-12">
+						<h2>Challenge 2: Building a Quantum Teleporter</h2>
+						<p style="text-align: left;">
+							We saw on the first day that a Bell effect could be used to move the state of a qubit from Alice's quantum computer to Bob's quantum computer.
+							This example was interesting, but it did not tell us how to actually perform a Bell effect.
+							The goal of this activity is to figure out what is really going on with quantum teleportation.
+						</p>
+						<p style="text-align: left;">
+							Using the Bell pairs from <a href="bell.html">Challenge 1: Creating a Bell Pair</a>, you will now consider the problem of setting up secure communication for your bike sharing network.
+							We will consider a simplified example where there is a single bike station (left in the figure below) connected to our bike sharing network (right in the figure below).
+							We will start by providing the bike station with a qubit whose state is entangled with a qubit in the bike sharing network.
+						</p>
+						<img src="images/network.png" style="display: block; margin: auto;" alt="A quantum computer at the bike sharing station shares an entangled pair of qubits with a quantum computer running on the bike sharing network.">
+						<p style="text-align: left;">
+							If we perform the quantum teleportation protocol using this Bell pair, then we can securely transfer quantum information from the bike station to the bike sharing network.
+							However, this comes at the cost of destroying the Bell pair.
+							This means that we would actually need many Bell pairs for ongoing communication, but we will not worry about that for now.
+							The rest of the challenge outline is as follows.
+						</p>
+						<p>LINKS HERE</p>
+						<p style="text-align: left;">
+							<b>Citations</b>:
+							This challenge is based on the work of <a target="_blank" href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.70.1895">Charles Bennett, Gilles Brassard, Crépeau Crépeau, Richard Jozsa, Asher Peres, and William Wootters in 1993</a>.
+							The ZX perspective on teaching quantum teleportation is inspired by the work of <a target="_blank" href="https://arxiv.org/abs/2312.03653">Selma Dündar-Coecke, Lia Yeh, Caterina Puca, Sieglinde M.-L. Pfaendler, Hamza Waseem, Thomas Cervoni, Aleks Kissinger, Stefano Gogioso, and Bob Coecke in 2023</a>.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- footer start --> 
+		<footer id="footer">
+
+			<!-- .footer start --> 
+			<div class="footer section" style="padding: 15px;">
+			</div>
+			<!-- .footer end -->
+
+			<!-- .subfooter start --> 
+			<div class="subfooter">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<p class="text-center">Copyright © 2015 template by <a target="_blank" href="http://webthemez.com">webthemez.com</a>.</p>
+							<p class="text-center">Favicon created by <a target="_blank" href="https://www.flaticon.com/authors/wichaiwi" title="quantum icons">Wichai.wi - Flaticon</a>.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .subfooter end -->
+
+		</footer>
+		<!-- footer end -->
+
+		<!-- JavaScript --> 
+		<script type="text/javascript" src="plugins/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="plugins/modernizr.js"></script>
+		<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
+		<script type="text/javascript" src="plugins/jquery.appear.js"></script>
+
+		<!-- Custom Scripts -->
+		<script type="text/javascript" src="js/custom.js"></script>
+
+	</body>
+</html>

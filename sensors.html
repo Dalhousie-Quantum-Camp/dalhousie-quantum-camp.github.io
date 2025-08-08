@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>Challenge 2: The World of Quantum Sensing</title>
+		<meta name="description" content="Challenge 2: The World of Quantum Sensing">
+		<meta name="author" content="Scott Wesley">
+
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+ 
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet"> 
+		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet"> 
+		<link href="css/animations.css" rel="stylesheet"> 
+		<link href="css/style.css" rel="stylesheet"> 
+		<link href="css/custom.css" rel="stylesheet">
+	</head>
+
+	<body class="no-trans">
+		<!-- scrollToTop --> 
+		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+		<!-- header start --> 
+		<header class="header fixed clearfix navbar navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+					</div>
+					<div class="col-md-8">
+
+						<!-- header-right start --> 
+						<div class="header-right">
+
+							<!-- main-navigation start --> 
+							<div class="main-navigation animated">
+
+								<!-- navbar start --> 
+								<nav class="navbar navbar-default" role="navigation">
+									<div class="container-fluid">
+
+										<!-- Toggle get grouped for better mobile display -->
+										<div class="navbar-header">
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+
+										<!-- Collect the nav links, forms, and other content for toggling -->
+										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+											<ul class="nav navbar-nav navbar-right">
+												<li><a href="index.html">Home</a></li>
+												<li><a href="index.html#overview">Overview</a></li>
+												<li><a href="index.html#schedule">Schedule</a></li>
+												<li><a href="index.html#location">Location</a></li>
+												<li><a href="index.html#sponsors">Sponsors</a></li>
+												<li><a href="index.html#contact">Contact</a></li>
+												<li><a href="challenges.html">Go!</a></li>
+											</ul>
+										</div>
+
+									</div>
+								</nav>
+								<!-- navbar end -->
+
+							</div>
+							<!-- main-navigation end -->
+
+						</div>
+						<!-- header-right end -->
+
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header end -->
+
+		<section class="hero-caption secPadding">
+			<div class="container">
+				<div class="row " style="margin-top: 80px;">
+					<div class="col-sm-12">
+						<h2>Challenge 2: The World of Quantum Sensing</h2>
+						<p style="text-align: left;">
+							In a successful smart city, there would need to be many sensors to collect data on the resources, vehicles, and buildings in the city.
+							Sensors might include electromagnetic sensors to accurately track traffic flow, temperature sensors to ensure energy efficient climate control, and pressure sensors to improve weather predictions.
+							A surprising fact is that through the power of quantum mechanics, we can use artificial diamonds as highly accurate sensors for electromagnetic fields, temperature, and pressure, among many other things.
+							While this might sounds like magic, this is simply one of the many quantum sensing devices that exist today.
+						</p>
+						<p style="text-align: left;">
+							Most quantum sensors are devices that use qubits to detect very small changes in a quantity of interest.
+							An exciting aspect of quantum sensing is that it provides a way for quantum computers to obtain inputs from the real world, just like conventional sensors provide real-world inputs to conventional computers.
+							In this activity, we will consider nitrogen-vacancy (NV) centers in diamonds.
+							We will not worry too much about the physics, but in short, an NV center is a defect in a diamond which can provide us with very stable qubits that are also ideal for sensing small changes in many quantities of interest.
+							Our motivation is the very speculative application of using NV centers to improve weather predictions for smart city management.
+						</p>
+						<p style="text-align: left;">
+							The goal of this challenge is to demonstrate an understanding of how quantum sensing works, at a very high level.
+							We will assume that some physicists have taken the liberty of setting up our sensing NV center, so that we can focus on the quantum computing part of the problem.
+							You will learn about phase accumulation and the quantum Fourier transform (QFT), and see how they can be combined to perform quantum phase estimation (QPE).
+							You will then see how quantum phase estimation can be used to extract useful data for our pressure sensor.
+							We will assume that we have a single diamond for sensing and three qubits to store the sensor output as illustrated in the following diagram.
+						</p>
+						<img src="images/nv_sensor.png" style="display: block; margin: auto; width: 60%; height: auto;" alt="A schematic description of an NV-center for pressure sensing.">
+						<p style="text-align: left;">
+							The challenge outline is as follows.
+						</p>
+						<p>LINKS HERE</p>
+						<p style="text-align: left;">
+							<b>Citations</b>:
+							This challenge is based on a literature review by <a target="_blank" href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/qute.202100049">Scott E. Crawford, Roman A. Shugayev, Hari P. Paudel, Ping Lu, Madhava Syamlal, Paul R. Ohodnicki, Benjamin Chorpening, Randall Gentry, Yuhua Duan in 2021</a>.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- footer start --> 
+		<footer id="footer">
+
+			<!-- .footer start --> 
+			<div class="footer section" style="padding: 15px;">
+			</div>
+			<!-- .footer end -->
+
+			<!-- .subfooter start --> 
+			<div class="subfooter">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<p class="text-center">Copyright © 2015 template by <a target="_blank" href="http://webthemez.com">webthemez.com</a>.</p>
+							<p class="text-center">Favicon created by <a target="_blank" href="https://www.flaticon.com/authors/wichaiwi" title="quantum icons">Wichai.wi - Flaticon</a>.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .subfooter end -->
+
+		</footer>
+		<!-- footer end -->
+
+		<!-- JavaScript --> 
+		<script type="text/javascript" src="plugins/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="plugins/modernizr.js"></script>
+		<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
+		<script type="text/javascript" src="plugins/jquery.appear.js"></script>
+
+		<!-- Custom Scripts -->
+		<script type="text/javascript" src="js/custom.js"></script>
+
+	</body>
+</html>
